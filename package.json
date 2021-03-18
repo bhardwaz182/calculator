@@ -1,0 +1,25 @@
+{
+  "name": "assessment-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:css": "node-sass ./css/src -o ./css/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tools.publicis.sapient.com/bitbucket/scm/psijxib/assessment-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.32.8",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
